@@ -35,9 +35,9 @@ class FooControllerSpec extends Specification {
             def json = response.json
             response.status == 200
             response.json.one == "We'll rock you :P"
-            response.json.two == "We'll rock you :P"
+            response.json.two == "We''ll rock you :P"
             response.json.three == "We'll rock you yay :P"
-            response.json.four == "We'll rock you yay :P"
+            response.json.four == "We''ll rock you yay :P"
     }
 
 }
